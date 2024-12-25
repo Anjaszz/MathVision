@@ -1,14 +1,7 @@
 import os
 import random
 import time
-try:
-    import cv2
-except ImportError:
-    import subprocess
-    import sys
-    
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "opencv-python-headless"])
-    import cv2
+import cv2
 import numpy as np
 import streamlit as st
 from PIL import Image

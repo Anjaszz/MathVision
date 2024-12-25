@@ -112,36 +112,15 @@ with col1:
             mode=WebRtcMode.SENDRECV,
             async_processing=True,
             rtc_configuration={
-                "iceServers": [
-                    {"urls": ["stun:stun.l.google.com:19302"]},
-                    {
-                        'urls': ['turn:relay1.expressturn.com:3478'],
-                        'username': 'efBWHN',
-                        'credential': 'QWqbR2HkP0'
-                    }
-                ],
-                "iceTransportPolicy": "all",
-                "bundlePolicy": "max-bundle",
-                "rtcpMuxPolicy": "require",
+                "iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]
             },
             video_frame_callback=callback,
             media_stream_constraints={
                 "video": {
-                    "width": {"ideal": 1280, "min": 640},
-                    "height": {"ideal": 720, "min": 480},
-                    "frameRate": {"ideal": 30, "max": 30},
-                    "facingMode": "user"
+                    "width": {"ideal": 1280, "min": 1280},
+                    "height": {"ideal": 720, "min": 720}
                 },
                 "audio": False,
-            },
-            translations={
-                "start": "Mulai Kamera",
-                "stop": "Stop Kamera",
-                "select_device": "Pilih Kamera",
-                "media_api_not_available": "Media API tidak tersedia",
-                "device_ask_permission": "Mohon izinkan akses kamera",
-                "device_not_available": "Kamera tidak tersedia",
-                "device_access_denied": "Akses kamera ditolak"
             }
         )
 
