@@ -5,7 +5,8 @@ streamlit
 pillow
 matplotlib
 keras
-av
+python-av
+cv2
 streamlit_webrtc
 google-generativeai
 python-dotenv

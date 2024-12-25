@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\front\OneDrive\Dokumen\myproject\Socratic\myenv"
+VIRTUAL_ENV="C:\Users\front\OneDrive\Dokumen\myproject\MathVision\myenv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
