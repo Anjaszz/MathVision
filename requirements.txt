@@ -1,0 +1,11 @@
+opencv-python-headless
+mediapipe
+numpy
+streamlit
+pillow
+matplotlib
+keras
+av
+streamlit_webrtc
+google-generativeai
+python-dotenv
