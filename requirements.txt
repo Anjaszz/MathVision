@@ -1,12 +1,11 @@
-opencv-python-headless
+opencv-python
 mediapipe
 numpy
 streamlit
 pillow
 matplotlib
 keras
-python-av
-cv2
+av
 streamlit_webrtc
 google-generativeai
 python-dotenv
